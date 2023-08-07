@@ -2,13 +2,19 @@
 //keyword public: la clase puede ser usada por otras clases
 //class me permite definir una clase de nombre animal
 
+// El nombre de la clase publica debe coincidir con la del archivo
 public class Animal{
+
 
 	// tipo y nombre de la variable
 	String name;
 
-	//un metodo es una operacion que puede ser llamada desde otra clase
+	//un metodo es una operacion que puede ser llamada desde otra clase	
 	// declaracion de un metodo, y no requiere paso de parametro
+	/**
+	 * comentarios java code
+	 * 
+	 */ 
 	public String getName(){
 		return name;
 	}
@@ -24,4 +30,9 @@ public class Animal{
 	//Esta es la firma de un metodo o declaracion completa.
 	//public int numberVisitor(int month)
 	
+}
+
+// interesantemente java no requiere que una clase sea publica.
+class Animal2{
+
 }
