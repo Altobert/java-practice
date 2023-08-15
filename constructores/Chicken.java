@@ -14,6 +14,7 @@ public class Chicken{
 		name="Ducke";
 	}
 
+
 	public static void main(String ... args){
 
 		System.out.println("Se inicializa objeto chicken para acceder a las variables");
