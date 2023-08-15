@@ -6,6 +6,11 @@ public class Swan{
 	//se inicializa en cero, al momemto de declarar la jvm le asigna el valor. 
 	int numberEggs;
 
+	//tambien se pueden leer y escribir variable directamente desde donde se declaran
+	String first = "Theodore";
+	String last = "Moose";
+	String full = first + last;
+
 	public static void main(String ... args){
 
 		//variable del tipo Swan, para almacenar la referencia del objeto
