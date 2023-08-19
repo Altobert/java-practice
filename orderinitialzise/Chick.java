@@ -18,6 +18,7 @@ public class Chick{
 
 	}
 
+	//metodo puede estar en la clase con nombre de archivo.java
 	public static void main(String [] arg){
 
 		Chick chick = new Chick();
