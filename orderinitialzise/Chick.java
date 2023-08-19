@@ -1,6 +1,9 @@
 
 package orderinitialzise;
 
+//la inicializacion de blockes ocurre en el orden que se encuentra
+//en el archivo
+
 public class Chick{
 
 	//Primer orden de inicializacion
