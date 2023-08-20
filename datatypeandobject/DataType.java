@@ -23,6 +23,30 @@ public class DataType{
 		System.out.println(017); 	// 15
 		System.out.println(0x1F); 	// 31
 
+		// referencias a objetos 
+
+		java.util.Date today; //today es una referencia de tipo Date y solo puede apuntar a un objeto Date
+		String greeting; // //greeting es una referencia de tipo String y solo puede apuntar a un objeto String
+
+
+		today = new java.util.Date();
+		System.out.println(today); 	// 31	
+		
+
+		greeting = "How are you?";	
+		System.out.println(greeting); 	// 31	
+
+		// solo se puede acceder a los objetos anteriores via su referencia. today y greeting respectivamente.
+
+
+		int value = null; // un tipo primitivo no puede apuntar a un objeto.
+						  // los datos primitivos no tienen metodos declarados en ellos.
+		
+		String s = null; // hace referencia que actualmente no apunta a ningun objeto de su tipo
+		// tipos de referencia pueden ser utilizados para llamar metodos cuando ellos no apuntan a null
+
+
+
 	}
 
 }
