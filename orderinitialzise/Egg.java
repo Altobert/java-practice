@@ -4,6 +4,7 @@ public class Egg {
     
     public Egg(){
         number = 5; 
+        System.out.println(number);
     }
 
     public static void main(String [] args){
@@ -12,7 +13,11 @@ public class Egg {
         System.out.println(eggNumber.number);
     }
 
-    private int number = 3;
+    private int number = 3; 
 
-    {number = 4;}
+    //primera inicializacion
+    {
+        number = 4;
+        System.out.println(number);
+    }
 }

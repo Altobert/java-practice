@@ -9,7 +9,7 @@ public class Chick{
 	//Primer orden de inicializacion
 	public String name="Fluffy";
 
-	{System.out.println("setting field");}
+	{System.out.println("setting field (seteando campos)");}
 
 	//metodo especial que construye objetos.
 	public Chick(){
@@ -17,7 +17,7 @@ public class Chick{
 		name ="Tinny";
 
 		//segundo orden de inicializacion
-		{System.out.println("setting constructor");}
+		{System.out.println("setting constructor (seteando campo en constructor)");}
 
 	}
 
