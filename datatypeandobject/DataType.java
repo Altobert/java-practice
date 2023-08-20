@@ -5,7 +5,7 @@ public class DataType{
 
 	public static void main(String ...args){
 
-		//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
+		
 		//long maxError = 3123456789;	// DOES NOT COMPILE
 		/*
 		datatypeandobject/DataType.java:9: error: integer number too large // lo reconoce como integer, ese es el problema.
