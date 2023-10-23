@@ -41,9 +41,19 @@ public class DataType{
 
 		int value = null; // un tipo primitivo no puede apuntar a un objeto.
 						  // los datos primitivos no tienen metodos declarados en ellos.
-		
+
 		String s = null; // hace referencia que actualmente no apunta a ningun objeto de su tipo
 		// tipos de referencia pueden ser utilizados para llamar metodos cuando ellos no apuntan a null
+
+
+		String reference = "hello";
+	    int len = reference.length();
+		int bad = len.length(); // DOES NOT COMPILE No compila por que la variable primitiva len no tiene metodos.
+
+		// todos los tipos de datos primitivos son en minuscula, por el contrario de las clases que con todas con 
+		// mayuscula
+
+		// variable es un pequeño trozo de memoria que almacena un valor. 
 
 
 
