@@ -8,6 +8,17 @@ public class Zoo{
 		y el codigo del programador que se comienza a ejecutar.
 		Son argumentos que vienen por linea de comandos args[0], args[1], args[2]
 	*/
+	/*		
+		Un metodo main no statico seria como un metodo invisible desde el punto de vista de la 
+		JVM.
+	*/
+	/*
+		Un metodo static debe ser llamado solamente con el nombre de la clase. Zoo.main();
+	*/
+	/*
+		Un metodo public indica el nivel de exposicion del metodo. Es decir, estara exppuesto 
+		para todo el programa.
+	*/
 	public static void main(String[] args){
 		System.out.println(args[0]);
 		System.out.println(args[1]);

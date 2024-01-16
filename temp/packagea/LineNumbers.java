@@ -1,6 +1,6 @@
 
 //Por supuesto que clase se ejecutara con sus opciones, por que 
-//cuenta con sus import, de lo contrario tiraria errores
+//cuenta con sus import, de lo contrario la JVM mostraria errores.
 
 package packagea;
 import java.util.ArrayList; 
