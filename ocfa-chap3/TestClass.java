@@ -1,6 +1,7 @@
 public class TestClass{
 
     private static int contador;
+    
     public TestClass(){
         contador++;
         System.out.println("Constructor TestClass: "+contador);
