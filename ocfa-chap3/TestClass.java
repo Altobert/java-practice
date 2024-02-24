@@ -13,6 +13,8 @@ public class TestClass{
         //si no que cero. 
         System.out.println("Largo argumentos de entrada: "+args.length);
 
+        //length es un atributo de la clase String que no es objeto, por lo cual no arroja nul, 
+        //si no que es primitivo, lo que hace que retorne o
         for(int i=0;i<args.length;i++){
             System.out.println("args["+i+"]: "+args[i]);
         }
@@ -32,6 +34,12 @@ public class TestClass{
     public String toString() {
         // TODO Auto-generated method stub
         return super.toString();
+    }
+
+    //me encuentro sobrecargando el metodo main, pero no es la firma reconocida por la JVM
+    public static int main(){
+        System.out.println("saludos cordiales java");
+        return 0;
     }
 
 }
